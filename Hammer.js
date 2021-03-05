@@ -13,8 +13,11 @@ class Hammer {
     };
     display(){
       var pos = this.body.position;
-      pos.x = mouseX;
-      pos.y = mouseY;
+        
+        
+  //set mouse control
+        
+        
       var angle = this.body.angle;
   
       push();
