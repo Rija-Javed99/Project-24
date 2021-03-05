@@ -12,6 +12,9 @@ function setup(){
 
     plane = new Plane(600,height,1200,20)
     
+    //create given particles
+    
+    
  
 }
 
@@ -19,5 +22,7 @@ function draw(){
     background("lightBlue");
     Engine.update(engine);
 
-  
+  //display given particles
+    
+    
 }
